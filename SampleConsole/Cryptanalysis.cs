@@ -2,7 +2,7 @@ using System;
 using System.Security.Cryptography;
 
 
-class RandomCryptAnalysis{
+class Cryptanalysis{
 
     
      public static int findKey(String plaintext, String cipher){
@@ -10,6 +10,7 @@ class RandomCryptAnalysis{
         DateTime start = new DateTime(2020, 7, 3, 11, 0,0);
         DateTime end= new DateTime(2020, 7, 4, 11, 0,0);
         int seed = 0;
+        int counter =0;
         while(start <= end){
             start = start.AddSeconds(1);
             TimeSpan ts = start.Subtract(new DateTime(1970, 1, 1));
@@ -20,7 +21,9 @@ class RandomCryptAnalysis{
             if (calccipher.Equals(cipher)){
                 break;
             }
+            counter++;
         }
+        Console.WriteLine(counter);
         return seed;
      }
 

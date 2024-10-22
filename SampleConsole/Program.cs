@@ -31,33 +31,32 @@ class Hello {
 
         // steganography.performSteganoGraphy(args[0]);
         // “Hello World” “RgdIKNgHn2Wg7jXwAykTlA==”
-        // string plaintext = args[0];
-        // string cipher = args[1];
+        string plaintext = args[0];
+        string cipher = args[1];
+        int usedseed = Cryptanalysis.findKey(plaintext, cipher);
+        Console.WriteLine(usedseed);
 
-        // int usedseed = RandomCryptAnalysis.findKey(plaintext, cipher);
-        // Console.WriteLine(usedseed);
-
-        Hash mD5BirthdayAttack = new Hash();
-
-        
-        Byte[] alphabets = mD5BirthdayAttack.generateAlphabet();        
-        Console.WriteLine(Encoding.ASCII.GetString(alphabets));
+        // Hash mD5BirthdayAttack = new Hash();
 
         
-        Stopwatch stopwatch = Stopwatch.StartNew();
-        bool found = mD5BirthdayAttack.performBA("C5", alphabets,10, new byte[10], 0);
-        if (found){
-            String[] matchedWords = mD5BirthdayAttack.matchedHashes;
-            Console.WriteLine(matchedWords[0] + ","+ matchedWords[1]);
-            String one = BitConverter.ToString(mD5BirthdayAttack.hashInputWithSalt(Encoding.ASCII.GetBytes(matchedWords[0]), "C5")).Replace("-","");
-            String two = BitConverter.ToString(mD5BirthdayAttack.hashInputWithSalt(Encoding.ASCII.GetBytes(matchedWords[1]), "C5")).Replace("-","");
-        
-            Console.WriteLine("one " +one);
-            Console.WriteLine("two" +two);
+        // Byte[] alphabets = mD5BirthdayAttack.generateAlphabet();        
+        // Console.WriteLine(Encoding.ASCII.GetString(alphabets));
 
-        }
-        stopwatch.Stop();
-         Console.WriteLine(stopwatch.ElapsedMilliseconds);
+        
+        // Stopwatch stopwatch = Stopwatch.StartNew();
+        // bool found = mD5BirthdayAttack.performBA("C5", alphabets,10, new byte[10], 0);
+        // if (found){
+        //     String[] matchedWords = mD5BirthdayAttack.matchedHashes;
+        //     Console.WriteLine(matchedWords[0] + ","+ matchedWords[1]);
+        //     String one = BitConverter.ToString(mD5BirthdayAttack.hashInputWithSalt(Encoding.ASCII.GetBytes(matchedWords[0]), "C5")).Replace("-","");
+        //     String two = BitConverter.ToString(mD5BirthdayAttack.hashInputWithSalt(Encoding.ASCII.GetBytes(matchedWords[1]), "C5")).Replace("-","");
+        
+        //     Console.WriteLine("one " +one);
+        //     Console.WriteLine("two" +two);
+
+        // }
+        // stopwatch.Stop();
+        //  Console.WriteLine(stopwatch.ElapsedMilliseconds);
         
 
         // mD5BirthdayAttack.performIterAttack("C5");
