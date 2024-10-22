@@ -37,7 +37,7 @@ class Hello {
         // int usedseed = RandomCryptAnalysis.findKey(plaintext, cipher);
         // Console.WriteLine(usedseed);
 
-        MD5BirthdayAttack mD5BirthdayAttack = new MD5BirthdayAttack();
+        Hash mD5BirthdayAttack = new Hash();
 
         
         Byte[] alphabets = mD5BirthdayAttack.generateAlphabet();        

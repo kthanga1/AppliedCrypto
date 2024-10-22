@@ -12,3 +12,4 @@
 /home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.pdb
 /home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.genruntimeconfig.cache
 /home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/ref/SampleConsole.dll
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.sourcelink.json

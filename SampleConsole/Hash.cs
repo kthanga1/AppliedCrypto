@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Diagnostics;
 
-class MD5BirthdayAttack {
+class Hash {
 
     Dictionary<String, String> computedHash = new Dictionary<string, String>();
     public String[] matchedHashes = new String[2]{"None","None"};
