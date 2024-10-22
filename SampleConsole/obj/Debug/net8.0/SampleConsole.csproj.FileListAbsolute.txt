@@ -1,0 +1,14 @@
+/home/krane/AppliedCrypto/SampleConsole/bin/Debug/net8.0/SampleConsole
+/home/krane/AppliedCrypto/SampleConsole/bin/Debug/net8.0/SampleConsole.deps.json
+/home/krane/AppliedCrypto/SampleConsole/bin/Debug/net8.0/SampleConsole.runtimeconfig.json
+/home/krane/AppliedCrypto/SampleConsole/bin/Debug/net8.0/SampleConsole.dll
+/home/krane/AppliedCrypto/SampleConsole/bin/Debug/net8.0/SampleConsole.pdb
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.AssemblyInfoInputs.cache
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.AssemblyInfo.cs
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.csproj.CoreCompileInputs.cache
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.dll
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/refint/SampleConsole.dll
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.pdb
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/SampleConsole.genruntimeconfig.cache
+/home/krane/AppliedCrypto/SampleConsole/obj/Debug/net8.0/ref/SampleConsole.dll
